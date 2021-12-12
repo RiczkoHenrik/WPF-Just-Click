@@ -1,0 +1,15 @@
+﻿<Window x:Class="Just_Click.PlayerName"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Just_Click"
+        mc:Ignorable="d"
+        Title="PlayerName" Height="295.917" Width="398.98"
+        ResizeMode="NoResize" WindowStyle='None'>
+    <Grid Background="SlateGray">
+        <Button x:Name="sub" Content="Submit" HorizontalAlignment="Left" Margin="78,168,0,0" VerticalAlignment="Top" Width="226" Height="60" Click="sub_Click"/>
+        <TextBox x:Name="getname"  HorizontalAlignment="Left" Height="23" Margin="78,96,0,0" TextWrapping="Wrap" Text="Player" VerticalAlignment="Top" Width="226"/>
+
+    </Grid>
+</Window>

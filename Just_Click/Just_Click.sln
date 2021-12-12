@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Just_Click", "Just_Click\Just_Click.csproj", "{99FACEE0-C71D-4B5C-ABD7-3E9C21762061}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99FACEE0-C71D-4B5C-ABD7-3E9C21762061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FACEE0-C71D-4B5C-ABD7-3E9C21762061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FACEE0-C71D-4B5C-ABD7-3E9C21762061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FACEE0-C71D-4B5C-ABD7-3E9C21762061}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3019AAC7-90AD-4732-BC4A-384B3E20D9F7}
+	EndGlobalSection
+EndGlobal

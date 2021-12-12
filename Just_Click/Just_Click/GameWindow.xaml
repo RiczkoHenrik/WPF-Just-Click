@@ -1,0 +1,30 @@
+﻿<Window x:Class="Just_Click.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Just_Click"
+        mc:Ignorable="d"
+        Title="GameWindow" Height="450" Width="800" Background="SlateGray" 
+        ResizeMode="NoResize" WindowStyle='None'>
+    
+    <Window.Resources>
+
+        <ImageSource x:Key="imgSource">secret_backg.png</ImageSource>
+        <ImageBrush x:Key="backgroundImage" ImageSource="{DynamicResource imgSource}" Opacity="0.3"></ImageBrush>
+    </Window.Resources>
+    
+    <Grid>
+        <Button x:Name="sbtn" Content="Click" HorizontalAlignment="Left" Margin="277,287,0,0" VerticalAlignment="Top" Width="208" Click="Button_Click" Height="94" Background="Gold"/>
+        <Label x:Name="score" Content="Score:" HorizontalAlignment="Left" Margin="363,78,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="xbtn" Content="Exit and save score" HorizontalAlignment="Left" Margin="10,406,0,0" VerticalAlignment="Top" Width="119" Height="34" Background="Red" Click="xbtn_Click"/>
+        <Grid Margin="565,142,126,175">
+            <Button x:Name="twobtn" Content="+2" ToolTip="Unlocked at 100 clicks!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="106" Height="43" Click="Button_Click_1"/>
+            <Button x:Name="tenbtn" Content="+10" ToolTip="Unlocked at 1000 clicks!" HorizontalAlignment="Left" Margin="0,59,0,0" VerticalAlignment="Top" Width="106" Height="43" Click="tenbtn_Click"/>
+            <Button x:Name="secbtn" Content="Useless..." ToolTip="Unlocked at 10000 clicks! Warning: Useless!" HorizontalAlignment="Left" Margin="0,111,-27,-21" VerticalAlignment="Top" Width="106" Height="43" Click="secbtn_Click"/>
+
+        </Grid>
+        <Label Content="Upgrades" HorizontalAlignment="Left" Margin="588,111,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
